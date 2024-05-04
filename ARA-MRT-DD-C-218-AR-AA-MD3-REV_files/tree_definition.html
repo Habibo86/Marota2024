@@ -1,0 +1,20 @@
+var openImg = new Image();
+openImg.src = "open_folder.gif";
+var closedImg = new Image();
+closedImg.src = "closed_folder.gif";
+
+function showBranch(branch){
+	var objBranch = document.getElementById(branch).style;
+	if(objBranch.display=="block")
+		objBranch.display="none";
+	else
+		objBranch.display="block";
+}
+
+function swapFolder(img){
+	objImg = document.getElementById(img);
+	if(objImg.src.indexOf('closed_folder.gif')>-1)
+		objImg.src = openImg.src;
+	else
+		objImg.src = closedImg.src;
+}

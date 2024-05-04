@@ -1,0 +1,17 @@
+<!-- Project name font style -->
+H1
+{
+   font: 22pt Arial;
+   text-align: center;
+   color: white;
+}
+
+<!-- Bookmarks font style -->
+body
+{
+	font: Arial;
+	color: white;
+    background: #A8A9AD;
+<!--uncoment next line to use background image-->
+<-- background-image: url(background.gif) -->
+}
